@@ -1,0 +1,47 @@
+/*Common elements*/
+html{
+    text-align: center;
+}
+header nav ul{
+    background-color: black;
+    overflow: hidden;
+}
+header nav li{
+    list-style-type: none;
+    display: inline;
+    float: left;
+}
+header nav a{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+header nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer ul{
+    padding: 0;
+}
+footer li{
+    list-style-type: none;
+    display: inline;
+}
+footer a{
+    padding: 25px;
+    color: white;
+}
+/*index.html*/
+#banner-image{
+    width: 100%;
+}
+
+/*experience.html*/
+
+/*nav menu*/
