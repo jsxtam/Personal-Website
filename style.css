@@ -1,26 +1,49 @@
 /*Common elements*/
 html{
 }
-header nav ul{
-    background-color: black;
-    overflow: hidden;
-}
-header nav li{
-    list-style-type: none;
-    display: inline;
-    float: left;
-}
-header nav a{
-    display: block;
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-header nav li a:hover{
-    background-color: white;
-    color: black;
+
+body {
+	min-width: 320px;
 }
 
+/*HEADER*/
+#top-navbar {
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+
+#top-navbar img {
+	height: 50px;
+	display: inline;
+	float: left;
+}
+#nav-list {
+	list-style-type: none;
+	text-align: center;
+	float: left;
+	background: black;
+	padding: 0px;
+}
+
+#nav-list li {
+	list-style-type: none;
+  display: inline;
+  float: left;
+}
+
+#nav-list a {
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+	text-decoration: none;
+}
+#nav-list a:hover {
+	background: white;
+	color: black;
+}
+
+/*FOOTER*/
 footer{
     background-color: black;
     color: white;
@@ -36,6 +59,8 @@ footer a{
     padding: 25px;
     color: white;
 }
+
+
 /*index.html*/
 #banner-image{
     width: 100%;
